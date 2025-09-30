@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Carrera | Coffee and Eatery</title>
+    <style>
+      body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        font-family: Arial, sans-serif;
+        background: linear-gradient(
+          180deg,
+          #0d0d0d 0%,
+          #1c0f0a 40%,
+          #2e1c13 100%
+        );
+        color: #f0e6dd;
+        height: 100dvb;
+      }
+
+      header section {
+        background-color: #f8f5f0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        border-radius: 15px;
+        padding: 20px;
+        margin: 40px 0;
+      }
+      header .container {
+        margin: 0;
+        padding: 0 20px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+      .logo {
+        font-size: 22px;
+        font-weight: bold;
+        color: #4b2e2e;
+        text-decoration: none;
+      }
+      nav ul {
+        list-style: none;
+        display: flex;
+        gap: 25px;
+        margin: 0;
+        padding: 0;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        transition: color 0.3s;
+      }
+      nav ul li a:hover {
+        color: #b5651d;
+      }
+      .social a img {
+        width: 24px;
+        height: 24px;
+      }
+      header.container {
+        max-width: 1200px;
+        margin: 0 auto;
+        padding: 0 20px;
+      }
+
+      .cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 50px;
+      }
+      main.container {
+        margin: 0 50px;
+        padding: 0 20px;
+      }
+
+      .card {
+        background: #fff;
+        border-radius: 10px;
+        padding: 20px;
+        box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        text-align: center;
+      }
+
+      .card img {
+        width: 100%;
+        border-radius: 8px;
+      }
+
+      .card h3 {
+        margin: 15px 0 10px;
+        color: #4b2e2e;
+      }
+
+      .card p {
+        color: #555;
+      }
+
+      nav ul li a.active {
+        color: #b5651d;
+        font-weight: bold;
+        border-bottom: 2px solid #b5651d;
+      }
+    </style>
+  </head>
+  <body>
+    <section>
+      <header class="container">
+        <section>
+          <div class="container">
+            <a href="#" class="logo">Carrera</a>
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="menu.html">Menu</a></li>
+                <li><a href="#">About</a></li>
+              </ul>
+            </nav>
+            <div class="social">
+              <a
+                href="https://www.instagram.com/muhammadnnaufal/"
+                target="_blank"
+              >
+                <img
+                  src="https://cdn-icons-png.flaticon.com/512/2111/2111463.png"
+                  alt="Instagram"
+                />
+              </a>
+            </div>
+          </div>
+        </section>
+      </header>
+
+      <main class="container">
+        <h1>Our Menu</h1>
+        <div class="cards">
+          <div class="card">
+            <img src="Media/Espreso.jpg" alt="Coffee 1" />
+            <h3>Espresso</h3>
+            <p>Strong and bold coffee shot.</p>
+          </div>
+          <div class="card">
+            <img src="Media/Cappucino.jpg" alt="Coffee 2" />
+            <h3>Cappuccino</h3>
+            <p>Espresso with steamed milk and foam.</p>
+          </div>
+          <div class="card">
+            <img src="Media/Latte.jpg" alt="Coffee 3" />
+            <h3>Latte</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+          <div class="card">
+            <img src="Media/Americano.jpg" alt="Coffee 3" />
+            <h3>Americano</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+          <div class="card">
+            <img src="#" alt="Coffee 3" />
+            <h3>Latte</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+          <div class="card">
+            <img src="#" alt="Coffee 3" />
+            <h3>Latte</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+          <div class="card">
+            <img src="#" alt="Coffee 3" />
+            <h3>Latte</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+          <div class="card">
+            <img src="#" alt="Coffee 3" />
+            <h3>Latte</h3>
+            <p>Smooth coffee with lots of milk.</p>
+          </div>
+        </div>
+      </main>
+    </section>
+  </body>
+</html>
