@@ -58,6 +58,11 @@ header.container {
   margin: 0 auto;
   padding: 0 20px;
 }
+nav ul li a.active {
+  color: #b5651d;
+  font-weight: bold;
+  border-bottom: 2px solid #b5651d;
+}
 
 /* CArd menu */
 .cards {
@@ -93,11 +98,6 @@ main.container {
   color: #616161;
 }
 
-nav ul li a.active {
-  color: #b5651d;
-  font-weight: bold;
-  border-bottom: 2px solid #b5651d;
-}
 main h1 {
   color: #6d4833;
 }
